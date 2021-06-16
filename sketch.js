@@ -5,7 +5,6 @@ function preload() {
  
   
   bg= loadImage("aladdin_cave.jpg")
-  //load image for the treasure background
   bg2=loadImage("treasure.jpg")
   
 }
@@ -26,7 +25,6 @@ function draw() {
   textSize(20);
   fill("white");
   text("Score: " + score, 450, 50);
-// add code for changing the background to the treasure background
   
 
   if(score === 3) {
